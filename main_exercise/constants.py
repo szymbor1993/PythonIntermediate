@@ -1,0 +1,3 @@
+DATE_FORMAT = "%Y-%m-%d"
+DATE_FORMAT_HUMAN_READABLE = "yyyy-mm-dd"
+POLISH_TAX_RATE = 0.19
