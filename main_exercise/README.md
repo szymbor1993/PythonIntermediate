@@ -94,8 +94,11 @@ your code written in this exercise, I prepared some tests with InputManager and
 RestClient objects mocked. Tests definition is located in 
 _tests/test_cases/main.json_ file.
 
-In order to run them, one needs to create unittests configuration (as a module 
-name provide _tests.test_main_). Alternatively, type the following command in 
+In order to run them, one needs to create unittests configuration. As a module 
+name provide _tests.test_main_. You also need to set working directory to 
+_main_exercise_ (provide full path).
+
+Alternatively, type the following command in 
 _main_exercise_ directory:
 ```bash
 python3 -m unittest tests.test_main
